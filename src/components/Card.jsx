@@ -121,7 +121,7 @@ const Card = () => {
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMDs3cgjTkpP_odMjJ_7Tsso3831eiF8bpwg&s" className="h-11 object-contain border-solid border-2 rounded"></img>
                     <div className="mx-3">
                         <div className="font-medium">KPMG</div>
-                        <div className="flex text-slate-500 text-base"><div className="my-1"><IoLocationOutline /></div><div>Hyderabad,Telangan...</div></div>
+                        <div className="flex text-blue-500 text-base"><div className="my-1"><IoLocationOutline /></div><div>Hyderabad,Telangan...</div></div>
                     </div>
                 </div>
                 <div className="text-md font-medium">KPMG India Sales Support ...</div>
@@ -139,7 +139,7 @@ const Card = () => {
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw0UFCo6VNRn0i3-ay78xqcXV0dY6r8J-JA&s" className="h-11 object-contain border-solid border-2 rounded"></img>
                     <div className="mx-3">
                         <div className="font-medium">SAP</div>
-                        <div className="flex text-slate-500 text-base"><div className="my-1"><IoLocationOutline /></div><div>Gurugaon</div></div>
+                        <div className="flex text-blue-500 text-base"><div className="my-1"><IoLocationOutline /></div><div>Gurugaon</div></div>
                     </div>
                 </div>
                 <div className="text-md font-medium">Data Scientist (Gurgaon)</div>
