@@ -3,7 +3,7 @@ import { PiBagSimpleLight } from "react-icons/pi";
 import { IoLocationOutline } from "react-icons/io5";
 const Card = () => {
     return (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 mx-5 gap-2">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 mx-5 gap-2 ">
         {/* 1st */}
             <div className="main border-solid border p-3 shadow-md rounded max-w-80 hover:shadow-lg hover:-translate-y-2 transform transition duration-300 ease-in-out hover:rounded-lg hover:border border-gray-300 hover:p-4 hover:bg-slate-50">
                 <div className="flex">
