@@ -9,10 +9,10 @@ import { useState } from "react";
     const [open,setopen] = useState(false);
 
     return <>
-    <nav className="bg-slate-400">
+    <nav className="bg-white-400">
         <div className="flex items-center font-base justify-around">
             <div className="z-50 p-2 md:w-auto w-full flex justify-between">
-            <img src={logo} alt="logo" className="h-20 md:h-28 cursor-pointer mx-auto" />
+            <img src={logo} alt="logo" className="h-10 md:h-20 cursor-pointer mx-auto" />
                 <div className="text-3xl md:hidden" onClick={() => setopen(!open)}>
                 <ion-icon name={`${open? "close" : "menu"}`}></ion-icon>
                 </div>
