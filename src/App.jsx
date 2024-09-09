@@ -14,7 +14,17 @@ import ChatBot from "./components/ChatBot";
 import SignIn from "./components/SignIn";
 function App() {
   return (<>
-    <SignIn/>
+    {/* <NavBar/>
+    <ChatBot/>
+    <Main/>
+    <RecurCards/>
+    <SecondPage/>
+    <Card/>
+    <SecPart2/>
+    <ThirdPage/>
+    <Footer/> */}
+    {/* <CompanySignUp/> */}
+    <NavBar/>
   </>
   ) 
 }
