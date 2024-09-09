@@ -8,7 +8,7 @@ function App() {
   return (<>
     <CompanySignUp/>
   </>
-  )
+  ) 
 }
 
 export default App;
