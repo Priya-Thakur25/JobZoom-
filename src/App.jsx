@@ -10,9 +10,11 @@ import ThirdPage from "./components/ThirdPage";
 import SecondPage from "./components/SecondPage";
 import ResumeBuilder from "./components/ResumeBuilder";
 import SecPart2 from "./components/SecPart2";
+import ChatBot from "./components/ChatBot";
 function App() {
   return (<>
     <NavBar/>
+    <ChatBot/>
     <Main/>
     <RecurCards/>
     <SecondPage/>
