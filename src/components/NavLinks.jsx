@@ -25,9 +25,9 @@ const NavLinks = () => {
                         <div>
                             <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
                                 <div className="py-2">
-                                    <div className="w-5 h-5 left-3 absolute mt-1 bg-slate-400 rotate-45"></div>
+                                    <div className="w-5 h-5 left-3 absolute mt-1 bg-slate-100 rotate-45"></div>
                                 </div>
-                                <div className="bg-slate-400 p-4 grid grid-cols-3 gap-6">
+                                <div className="bg-slate-100 p-4 grid grid-cols-3 gap-6 rounded-3xl">
                                     {
                                         link.sublinks.map((mysublinks) => (
                                             <div>

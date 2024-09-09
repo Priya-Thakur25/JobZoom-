@@ -84,57 +84,25 @@ export const links = [
         sublinks: [
             {
                 Head: "Web Development",
-            sublink: [
-                    { name: 'Full-stack Web Development', link: "/" },
-                    { name: 'Frontend Development', link: "/" },
-                    { name: 'Backend Development', link: "/" },
-                    { name: 'Web Hosting & Maintenance', link: "/" },
-                    { name: 'E-commerce Development', link: "/" },
-                ],
+            sublink: [ 
+                { name: 'Business Strategy Consulting', link: "/" },
+                { name: 'Technical Consulting', link: "/" },
+                { name: 'Career Mentorship', link: "/" },
+                { name: 'Financial Planning', link: "/" },
+                { name: 'Freelance Writing', link: "/" },
+            ],
             },
             {
                 Head: "App Development",
 
             sublink: [
-                    { name: 'Android App Development', link: "/" },
-                    { name: 'iOS App Development', link: "/" },
-                    { name: 'Cross-platform Apps', link: "/" },
-                    { name: 'App Testing & QA', link: "/" },
-                    { name: 'App Maintenance', link: "/" },
-                ],
+                { name: 'Business Strategy Consulting', link: "/" },
+                { name: 'Technical Consulting', link: "/" },
+                { name: 'Career Mentorship', link: "/" },
+                { name: 'Financial Planning', link: "/" },
+                { name: 'Freelance Writing', link: "/" },
+            ],
             },
-            {
-                Head: "Digital Marketing",
-
-            sublink: [
-                    { name: 'SEO Services', link: "/" },
-                    { name: 'Social Media Management', link: "/" },
-                    { name: 'Email Marketing', link: "/" },
-                    { name: 'Content Marketing', link: "/" },
-                    { name: 'PPC Advertising', link: "/" },
-                ],
-            },
-            {
-                Head: "Design Services",
-
-            sublink: [
-                    { name: 'Graphic Design', link: "/" },
-                    { name: 'UI/UX Design', link: "/" },
-                    { name: 'Logo Design', link: "/" },
-                    { name: 'Video Editing', link: "/" },
-                    { name: 'Brand Design', link: "/" },
-                ],
-            },
-            {
-                Head: "Consulting & Freelancing",
-
-            sublink: [
-                    { name: 'Business Strategy Consulting', link: "/" },
-                    { name: 'Technical Consulting', link: "/" },
-                    { name: 'Career Mentorship', link: "/" },
-                    { name: 'Financial Planning', link: "/" },
-                    { name: 'Freelance Writing', link: "/" },
-                ],
-            },
+          
         ],
      }];

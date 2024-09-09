@@ -13,7 +13,7 @@ import SecPart2 from "./components/SecPart2";
 import ChatBot from "./components/ChatBot";
 function App() {
   return (<>
-    <NavBar/>
+    {/* <NavBar/>
     <ChatBot/>
     <Main/>
     <RecurCards/>
@@ -21,7 +21,9 @@ function App() {
     <Card/>
     <SecPart2/>
     <ThirdPage/>
-    <Footer/>
+    <Footer/> */}
+    {/* <CompanySignUp/> */}
+    <NavBar/>
   </>
   ) 
 }
