@@ -1,7 +1,7 @@
 const Main = () => {
   return (
     <>
-      <div className="container col-xxl-8 px-4 py-5">
+      <div className="container col-xxl-8 px-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6 h-[500] w-[700] grid grid-cols-4">
             <div className="shadow-md rounded max-w-80 hover:shadow-lg hover:-translate-y-2 transform transition duration-300 ease-in-out hover:rounded-lg transform transition-transform duration-500 hover:scale-125">
@@ -53,29 +53,28 @@ const Main = () => {
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj80insJQSgMTY7YXLifp_vIhbJJEef5uHVIl8VZ16whn6m9ftKUrWhY_VxSpInSfaSv8&usqp=CAU" />
             </div>
           </div>
-          <div className="col-lg-6">
-            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Welcome to JobZoom
+          <div className="p-20 col-lg-6 relative z-0">
+              <div>
+            <h1 className="text-5xl m-2 display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            JobZoom: Your Career, Your Opportunities"
             </h1>
-            <p className="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+            <p className="m-3 lead text-2xl font-normal">
+            Find the perfect job or internship and work on real-time projects that match your skills. Earn while you grow and build a career with JobZoom.Our platform connects you with personalized opportunities, whether it's a job, internship, or project-based work, helping you succeed at every stage of your career.
             </p>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+            <div className="m-3 d-grid gap-2 d-md-flex justify-content-md-start">
               <button
                 type="button"
-                className="btn btn-primary btn-lg px-4 me-md-2"
+                className="btn btn-outline-primary btn-lg px-4 me-md-2"
               >
-                Primary
+                Get Started
               </button>
-              <button
-                type="button"
-                className="btn btn-outline-secondary btn-lg px-4"
-              >
-                Default
-              </button>
+            </div>
+            </div>
+            <div className="absolute bottom-72 -left-10 z-[-1]">
+              <img src="https://cdn.prod.website-files.com/65cb68557d264648c6675894/65e0b2f6f4f0083c26eab84c_Logos.png" className="h-full w-full opacity-20"/>
+            </div>
+            <div className="absolute bottom-2 -right-32">
+              <img src="https://cdn.prod.website-files.com/65cb68557d264648c6675894/66413628cd05d437c46bcd66_Ellipse%201.svg" className="h-50 w-50 opacity-50"/>
             </div>
           </div>
         </div>
