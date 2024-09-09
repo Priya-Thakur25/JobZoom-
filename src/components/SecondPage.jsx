@@ -65,7 +65,7 @@ const SecondPage = () => {
 
 </div>
             </div>
-            <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-4 m-[59px]">
                 <div className="flex items-center border-solid border p-4 shadow-md rounded hover:shadow-lg hover:-translate-y-2 transform transition duration-300 ease-in-out hover:rounded-lg hover:border border-gray-300 hover:p-4 hover:bg-slate-100 hover:text-blue-500">
                 <div>
                     <img
