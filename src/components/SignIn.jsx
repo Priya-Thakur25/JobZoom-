@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 const SignIn = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -51,7 +51,7 @@ const SignIn = () => {
                     </button>
                 </form>
 
-                <div className="text-center text-sm text-gray-500">Or sign in with<div><a href="">Sign Up?</a></div></div>
+                <div className="text-center text-sm text-gray-500"><Link to="/sign-up">Sign Up?</Link><div>Or sign in with</div></div>
 
                 <div className="flex justify-center space-x-4">
                     {/* Google Sign-In */}
